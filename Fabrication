@@ -1,0 +1,33 @@
+Making the clap switch:
+
+Assemble all the parts needed
+Sound sensor
+200 ohm resistor
+Led light
+Acrylic lamp(optional)
+Arduino uno
+Jumper wires
+breadboard
+Start by placing your sound sensor pins into the breadboard. Then connect the ground to the GND pin, the VCC to the 5V pin and the output pin to the A0 on the arduino using jumper wires.
+Once thats done place an led anywhere on the breadboard and then place the resistor to the positive side of the led and using jumper wires connect the other side of the resistor to the GND pin on the arduino.
+Plug in your arduino and upload the code for the clap switch onto your board. Be sure to check that you picked the correct port and board. 
+Test it out and if it doesnt work, you probably placed the VCC to GND or vice versa.
+
+
+Making the traffic light.
+
+The Arduino traffic light project's wiring is quite easy.  
+Materials needed:
+3 LEDs (Red, Green, Yellow)
+3 200 ohm resistor
+Breadboard
+Arduino board
+Jumper wires 
+
+ The Arduino will have specific pins for each LED, and they will all connect to the same ground. Use jumper wires for these connections.
+PIN 8 to Green LED + (anode)
+PIN 9 to Yellow LED + (anode)
+PIN 10 to Red LED + (anode)
+GND to common ground on breadboard
+ To keep the LEDs from being overloaded with current, we'll use 3 200 ohm resistors. Make that the negative (cathode) lead of the resistor is connected. The LED's cathode or negative (-) lead will be the shorter lead. A longer anode (or +) lead will be present. Your LEDs may quickly burn out if a 100-200 ohm resistor is not used. 
+Plug in the arduino and upload your code. Make sure to check that picked the correct port and board.
